@@ -16,4 +16,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
+    <TextView
+        android:id="@+id/showLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="@+id/mapDriver"
+        app:layout_constraintEnd_toEndOf="@+id/mapDriver"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
